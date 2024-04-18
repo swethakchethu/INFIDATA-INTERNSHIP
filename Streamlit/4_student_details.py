@@ -1,0 +1,15 @@
+import streamlit as st
+name=st.text_input("enter the student name")
+branch=st.text_input("enter the branch name:")
+usn=st.number_input("enter the usn")
+email=st.text_input("enter student email:")
+test1=st.number_input("test1 marks:")
+test2=st.number_input("test2 marks:")
+average=(test1+test2)/2
+st.write("student name:",name)
+st.write("student branch:",branch)
+st.write("usn:",usn)
+st.write("email:",email)
+st.write("test1 marks:",test1)
+st.write("test2 marks:",test2)
+st.write("average marks of tests is:",average)

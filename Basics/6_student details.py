@@ -1,0 +1,10 @@
+name=input('enter student name:')
+sid=input('enter the sid:')
+branch=input('enter the branch name:')
+email=input('enter the email:')
+test1=int(input('enter the test1 marks:'))
+test2=int(input('enter the test2 marks:'))
+avg=float(test1 + test2)/2
+print("name\t sid\t branch\t  emai\t test1\t test2\t avg")
+print("___________________________________________________")
+print(name,"\t",sid,"\t",branch,"\t",email,"\t",test1,"\t",test2,"\t",avg)
